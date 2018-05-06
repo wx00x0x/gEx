@@ -3,9 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{C6B5A6AF-C1F8-40F5-971F-5BD7DACD0143}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "bCards", "bCards\bCards.sqlproj", "{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59855315-A8AB-451C-A4CA-D1F1BFCF0E3E} = {C6B5A6AF-C1F8-40F5-971F-5BD7DACD0143}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B6BE444-8CE1-4400-9F65-3E0EFCB3DFC1}
