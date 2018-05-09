@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace gEx.ex006_Adapter
 {
@@ -10,6 +6,14 @@ namespace gEx.ex006_Adapter
 	{
 		static void Main(string[] args)
 		{
+			Console.Title = "Adapter (Адаптер)";
+
+			IConsoleMessageWriter messageWriter = new ConsoleMessageWriter();
+			messageWriter.WriteError("Ошибка");
+			messageWriter.WriteInfo("Инфо");
+			messageWriter.WriteSuccess("Успех");
+
+			Console.ReadKey();
 		}
 	}
 }
