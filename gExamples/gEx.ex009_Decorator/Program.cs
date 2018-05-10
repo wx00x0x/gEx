@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace gEx.ex009_Decorator
 {
@@ -10,6 +6,16 @@ namespace gEx.ex009_Decorator
 	{
 		static void Main(string[] args)
 		{
+			Console.Title = "Decorator (Декоратор)";
+			var message = "Мама мыла раму.";
+
+			var ptr = new WhiteSpacePrinter(new CapsPrinter(new ConsolePrinter()));
+			ptr.Print(message);
+
+			var filePrinter = new WhiteSpacePrinter(new CapsPrinter(new FilePrinter("Decorator.txt")));
+			filePrinter.Print(message);
+
+			Console.ReadKey();
 		}
 	}
 }
