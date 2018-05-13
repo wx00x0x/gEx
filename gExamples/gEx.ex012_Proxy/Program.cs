@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace gEx.ex012_Proxy
 {
@@ -10,6 +6,11 @@ namespace gEx.ex012_Proxy
 	{
 		static void Main(string[] args)
 		{
+			Console.Title = "Proxy (Заместитель / Сурагат)";
+
+			(new Proxy()).DoSomething();
+
+			Console.ReadKey();
 		}
 	}
 }
