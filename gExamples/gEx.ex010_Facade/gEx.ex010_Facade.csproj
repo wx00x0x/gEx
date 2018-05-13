@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Facade.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubSystemA.cs" />
+    <Compile Include="SubSystemB.cs" />
+    <Compile Include="SubSystemC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
