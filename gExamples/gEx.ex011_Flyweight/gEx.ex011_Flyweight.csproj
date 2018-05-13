@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteFlyweight.cs" />
+    <Compile Include="Flyweight.cs" />
+    <Compile Include="FlyweightFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsharedConcreteFlyweight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
