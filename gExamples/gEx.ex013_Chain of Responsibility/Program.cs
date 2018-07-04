@@ -10,6 +10,9 @@ namespace gEx.ex013_Chain_of_Responsibility
 	{
 		static void Main(string[] args)
 		{
+			Console.Title = "Chain of Responsibility (Цепочка ответственности)";
+
+			Console.ReadKey();
 		}
 	}
 }
