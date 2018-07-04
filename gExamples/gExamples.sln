@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gEx.ex022_Template Method",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gEx.ex023_Visitor", "gEx.ex023_Visitor\gEx.ex023_Visitor.csproj", "{F33D3265-3698-4B39-9582-F3919C2AA30B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpExamples", "CSharpExamples", "{05097C1F-36BD-403F-AEFA-0F70F48F1767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gEx.Cs.Threads", "gEx.Cs.Threads\gEx.Cs.Threads.csproj", "{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,10 @@ Global
 		{F33D3265-3698-4B39-9582-F3919C2AA30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33D3265-3698-4B39-9582-F3919C2AA30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33D3265-3698-4B39-9582-F3919C2AA30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +205,7 @@ Global
 		{35296484-B034-4E3D-A8D2-A7DB9DD0DE88} = {591AFDFA-7EE2-4686-A716-3E7817669650}
 		{2C04EF6A-3B7A-45F5-AFCE-FC41ABB4C95F} = {591AFDFA-7EE2-4686-A716-3E7817669650}
 		{F33D3265-3698-4B39-9582-F3919C2AA30B} = {591AFDFA-7EE2-4686-A716-3E7817669650}
+		{479BDD84-05A1-4BE3-B5BF-D0E8ACBB7404} = {05097C1F-36BD-403F-AEFA-0F70F48F1767}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B6BE444-8CE1-4400-9F65-3E0EFCB3DFC1}
